@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  position: relative;
+}
+.main {
+  width: 1440px;
+  height: 600px;
+}
+.container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.card {
+  padding: 48px;
+  width: 260px;
+}
+.sed {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.lux {
+  background-color: hsl(179, 100%, 13%);
+}
+.card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 25px 0;
+}
+.btn {
+  font-size: 16px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 18px;
+  margin: 50px 0 0 0;
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.btn-sed {
+  color: hsl(31, 77%, 52%);
+}
+.btn-suv {
+  color: hsl(184, 100%, 22%);
+}
+.btn-lux {
+  color: hsl(179, 100%, 13%);
+}
+p{
+	font-size: 16px;
+}
+p,
+h1 {
+  color: hsla(0, 0%, 100%, 0.75);
+}
